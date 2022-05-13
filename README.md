@@ -25,8 +25,11 @@
    
    
    -**FROM** el cual esta dirigido al JDK 11 y como ya estaba en nuestra máquina no tuvimos que hacer ningun pull.
+   
    -**EXPOSE** dirigido al puerto 9090.
+   
    -**COPY** utilizamos copy para llevar nuestro .jar a un directorio /jars sin necesidad de que tengamos que crearlo anteriormente.
+   
    -**CMD** el cual es el que ejecuta el comando, que en nuestro caso ejecutamos el *java -jar /jars/<archivo jar>
    
  Directorio priceservicemysql en source:
