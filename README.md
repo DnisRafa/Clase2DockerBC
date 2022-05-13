@@ -93,6 +93,19 @@
  de utilizar el comando run como veníamos haciendo hasta ahora, esto significa dockerizar.
  Para ello entramos al docker-compose.yml y vamos a añadir todos nuestros servicios, diciendo de que otros servicios dependen, la imagen, la cual tendría el nombre y tag     que nosotros hemos escrito al hacer el build de cada una de ellas. En el puerto colocaremos el puerto del host y el puerto al que queremos que nos haga el mapping y en el     environment pondríamos las variables de entorno que queremos que añada.
 
-8- Ya completo nuestro docker-compose.yml
+8- Ya completo nuestro docker-compose.yml nos dirigimos a lanzar el comando que hace que funcione nuestro docker-compose.yml y cree nuestros contenedores:
+
+
+    docker-compose up
+    
+9- Si metemos el siguiente comando podremos ver todos nuestros contenedores y los puertos que ocupan.
+
+
+    docker ps
+    
+10- Para finalizar tambien podremos crear un repositorio personal donde podremos hacer push y pull de nuestros contenedores a gusto. Esto se haría de la siguiente forma.
+
+
+    docker run -d -p 5000:5000 -v /mnt/registry:/var/lib/registry --restart=always --name bootcamp-registry registry:2
 
 
