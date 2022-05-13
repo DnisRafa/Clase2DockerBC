@@ -60,19 +60,19 @@
  5- Crear una imagen de todos los servicios que tenemos mediante el build ubicados en sus respectivos directorios.
  
  priceservicemysql:
- > docker build -t priceservicemysql:1.0 .
+ > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/priceservicemysql$  docker build -t priceservicemysql:1.0 .
 
  adminservice:
- > docker build -t adminservice:1.0 .
+ > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/adminservice$ docker build -t adminservice:1.0 .
 
  eurekaservice:
- > docker build -t eurekaservice:1.0 .
+ > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/eurekaservice$ docker build -t eurekaservice:1.0 .
 
  zuulservice:
- > docker build -t zuulservice:1.0 .
+ > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/zuulservice$ docker build -t zuulservice:1.0 .
 
  productservice:
- > docker build -t productservice:1.0 .
+ > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/productservice$ docker build -t productservice:1.0 .
 
 
 
