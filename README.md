@@ -60,4 +60,19 @@
  5- Crear una imagen de todos los servicios que tenemos mediante el build.
  
  priceservicemysql:
- > docker build -t 
+ > docker build -t priceservicemysql:1.0 .
+
+priceservicemysql:
+ > docker build -t priceservicemysql:1.0 .
+
+priceservicemysql:
+ > docker build -t priceservicemysql:1.0 .
+
+priceservicemysql:
+ > docker build -t priceservicemysql:1.0 .
+
+priceservicemysql:
+ > docker build -t priceservicemysql:1.0 .
+
+
+
