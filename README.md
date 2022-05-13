@@ -20,3 +20,13 @@
     -Dockerfile
      
     -priceservice-0.0.1-SNAPSHOT.jar
+    
+    
+ Directorio priceservicemysql en source:
+ 
+ 
+ -priceservicemysql
+ 
+ 
+    -directorio target
+    -directorio src
