@@ -51,6 +51,13 @@
   
  2- Entrar en el aplication.yml y cambiar las propiedades para funcionamiento correcto.
  
- ### A partir de ahora los pasos son para realizar el reto final.
+ ### A partir de ahora los pasos a realizar son para el reto final.
  
  3- Vamos a la carpeta binaries y creamos un **docker-compose.yml**
+ 
+ 4- En el docker-compose.yml vamos a añadir los volumenes y los servicios pero primero se realizaran otros pasos.
+ 
+ 5- Crear una imagen de todos los servicios que tenemos mediante el build.
+ 
+ priceservicemysql:
+ > docker build -t 
