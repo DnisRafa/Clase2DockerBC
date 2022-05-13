@@ -18,7 +18,6 @@
 
 
     -Dockerfile
-     
     -priceservice-0.0.1-SNAPSHOT.jar
     
     
@@ -30,3 +29,9 @@
  
     -directorio target
     -directorio src
+    -directorio .mvc
+    -pom.xml
+    -mvnw.cmd
+    -mvnw
+    -HELP.md
+    -.gitgnore
