@@ -51,11 +51,15 @@
 1- Añadir las siguientes dependencias en el pom.xml de nuestra carpeta priceservicemysql en source.
  
  
-  `<dependency>
-  <groupId>mysql</groupId>
-  <artifactId>mysql-connector-java</artifactId>
-  <scope>runtime</scope>
-  </dependency>`
+  `<dependency>`
+  
+  `<groupId>mysql</groupId>`
+  
+  `<artifactId>mysql-connector-java</artifactId>`
+  
+  `<scope>runtime</scope>`
+  
+  `</dependency>`
   
   Estas dependencias hacen que tu servicio puedan conseguir una conexión con mysql.
   
