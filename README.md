@@ -1,6 +1,6 @@
 # Clase2DockerBC
 
-## RESUMEN DE CLASE:
+## RESUMEN DE CLASE.
 
 
 ### El objetivo principal de la clase de hoy, era hacer un reto el cual pudiesemos dockerizar todos los servicios con los que habíamos estado trabajando anteriormente.
@@ -37,7 +37,7 @@
     -.gitgnore
 
 
-1- Añadir las siguientes dependencias en el pom.xml de nuestra carpeta priceservicemysql en source
+1- Añadir las siguientes dependencias en el pom.xml de nuestra carpeta priceservicemysql en source.
  
  
   <dependency>
@@ -46,4 +46,9 @@
   <scope>runtime</scope>
   </dependency>
   
-  Estas dependencias hacen que tu servicio puedan conseguir una conexión con mysql
+  Estas dependencias hacen que tu servicio puedan conseguir una conexión con mysql.
+  
+  
+ 2- Entrar en el aplication.yml y cambiar las propiedades para funcionamiento correcto.
+ 
+ 3-
