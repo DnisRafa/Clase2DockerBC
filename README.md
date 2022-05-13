@@ -51,30 +51,42 @@
   
  2- Entrar en el aplication.yml y cambiar las propiedades para funcionamiento correcto.
  
- ### A partir de ahora los pasos a realizar son para el reto final.
+ 3- Compilar el proyecto con el siguiente comando.
  
- 3- Vamos a la carpeta binaries y creamos un **docker-compose.yml**
+    docker run -it --rm --network host --name priceservice-maven -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.8.1-openjdk-11 mvn clean install -Dmaven.test.skip=true
  
- 4- En el docker-compose.yml vamos a añadir los volumenes y los servicios pero primero se realizaran otros pasos.
+ ### A partir de ahora los pasos a realizar son para el reto final tambien.
  
- 5- Crear una imagen de todos los servicios que tenemos mediante el build ubicados en sus respectivos directorios.
+ 4- Vamos a la carpeta binaries y creamos un **docker-compose.yml**
+ 
+ 5- En el docker-compose.yml vamos a añadir los volumenes y los servicios pero primero se realizaran otros pasos.
+ 
+ 6- Crear una imagen de todos los servicios que tenemos mediante el build ubicados en sus respectivos directorios.
  
  priceservicemysql:
- > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/priceservicemysql$  docker build -t priceservicemysql:1.0 .
+ 
+ 
+    devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/priceservicemysql$  docker build -t priceservicemysql:1.0 .
 
  adminservice:
  
  
-    - devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/adminservice$ docker build -t adminservice:1.0 .
+     devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/adminservice$ docker build -t adminservice:1.0 .
 
  eurekaservice:
- > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/eurekaservice$ docker build -t eurekaservice:1.0 .
+ 
+ 
+    devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/eurekaservice$ docker build -t eurekaservice:1.0 .
 
  zuulservice:
- > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/zuulservice$ docker build -t zuulservice:1.0 .
+ 
+ 
+    devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/zuulservice$ docker build -t zuulservice:1.0 .
 
  productservice:
- > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/productservice$ docker build -t productservice:1.0 .
+ 
+ 
+    devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/productservice$ docker build -t productservice:1.0 .
 
 
 
