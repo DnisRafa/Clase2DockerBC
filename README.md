@@ -57,22 +57,22 @@
  
  4- En el docker-compose.yml vamos a añadir los volumenes y los servicios pero primero se realizaran otros pasos.
  
- 5- Crear una imagen de todos los servicios que tenemos mediante el build.
+ 5- Crear una imagen de todos los servicios que tenemos mediante el build ubicados en sus respectivos directorios.
  
  priceservicemysql:
  > docker build -t priceservicemysql:1.0 .
 
-priceservicemysql:
- > docker build -t priceservicemysql:1.0 .
+ adminservice:
+ > docker build -t adminservice:1.0 .
 
-priceservicemysql:
- > docker build -t priceservicemysql:1.0 .
+ eurekaservice:
+ > docker build -t eurekaservice:1.0 .
 
-priceservicemysql:
- > docker build -t priceservicemysql:1.0 .
+ zuulservice:
+ > docker build -t zuulservice:1.0 .
 
-priceservicemysql:
- > docker build -t priceservicemysql:1.0 .
+ productservice:
+ > docker build -t productservice:1.0 .
 
 
 
