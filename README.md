@@ -1,4 +1,4 @@
-# Clase2DockerBC
+#Clase2DockerBC
 
 ##RESUMEN DE CLASE:
 
