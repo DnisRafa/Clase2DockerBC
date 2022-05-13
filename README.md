@@ -51,4 +51,6 @@
   
  2- Entrar en el aplication.yml y cambiar las propiedades para funcionamiento correcto.
  
- 3-
+ ### A partir de ahora los pasos son para realizar el reto final.
+ 
+ 3- Vamos a la carpeta binaries y creamos un **docker-compose.yml**
