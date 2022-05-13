@@ -63,7 +63,9 @@
  > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/priceservicemysql$  docker build -t priceservicemysql:1.0 .
 
  adminservice:
- > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/adminservice$ docker build -t adminservice:1.0 .
+ 
+ 
+    - devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/adminservice$ docker build -t adminservice:1.0 .
 
  eurekaservice:
  > devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/eurekaservice$ docker build -t eurekaservice:1.0 .
