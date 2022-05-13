@@ -14,10 +14,9 @@
   Directorio priceservicemysql en binaries:
   
   
-  
-  > -priceservicemysql
+  -priceservicemysql
 
 
-        - Dockerfile
+    -Dockerfile
      
-        -priceservice-0.0.1-SNAPSHOT.jar
+    -priceservice-0.0.1-SNAPSHOT.jar
