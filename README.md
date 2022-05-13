@@ -63,7 +63,7 @@
  
  6- Crear una imagen de todos los servicios que tenemos mediante el build ubicados en sus respectivos directorios.
  
- priceservicemysql:
+ priceservicemysql: 
  
  
     devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/priceservicemysql$  docker build -t priceservicemysql:1.0 .
@@ -87,6 +87,11 @@
  
  
     devops@devops-bootcamp-everis:~/Road2Cloud/00.Microservices/binaries/productservice$ docker build -t productservice:1.0 .
+    
+    
+ 7- Una vez creadas todas las imagenes, queremos que nuestro docker-compose.yml haga su función y nos despliegue los contenedores de todas nuestras imágenes sin necesidad
+ de utilizar el comando run como veníamos haciendo hasta ahora, esto significa dockerizar.
+ Para ello entramos al docker-compose.yml y vamos a añadir todos nuestros servicios, diciendo de que otros servicios dependen, la imagen, la cual tendría el nombre y tag     que nosotros hemos escrito al hacer el build de cada una de ellas. En el puerto colocaremos el puerto del host y el puerto al que queremos que nos haga el mapping y en el     environment pondríamos las variables de entorno que queremos que añada.
 
 
 
